@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleBtn.addEventListener('click', function () {
         // Get the computed style
         var computedStyle = window.getComputedStyle(collapseItem);
-        var computedToggleBtn = window.getComputedStyle(toggleBtn);
 
         // Check if the computed display value is 'none'
         if (computedStyle.display === 'none') {
