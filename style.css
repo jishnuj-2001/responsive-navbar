@@ -76,5 +76,10 @@ nav{
         height: 40px;
         justify-content: flex-end;       
     }
-    
+    .nav-body{
+        width: 70%;
+    }
+    nav{
+        justify-content: center;
+    }
 }
